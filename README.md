@@ -8,9 +8,6 @@ This repository implements a predictive autoscaling system for AWS EC2 using sim
 - CloudWatch metrics collection
 - ML-based prediction and scaling logic
 
-## Quickstart
-See `/docs/README.md` for full documentation and usage instructions.
-
 ## Structure
 - `/infrastructure` — Terraform
 - `/load-scripts` — Bash workload scripts
