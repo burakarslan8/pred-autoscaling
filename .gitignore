@@ -1,0 +1,15 @@
+# Ignore Terraform state, logs, Python cache, and sensitive files
+*.log
+*.pyc
+__pycache__/
+*.tfstate*
+*.csv
+.env
+*.deb
+*/venv/
+/.vscode/
+infrastructure/terraform.tfstate*
+ml/cloudwatch_metrics.csv
+ml/simulated_cloudwatch_metrics*.csv
+.terraform*
+.terraform/
