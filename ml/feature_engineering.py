@@ -1,7 +1,7 @@
 import pandas as pd
 
-INPUT_PATH = "augmented_binary_for_classification_1month.csv"
-OUTPUT_PATH = "augmented_binary_for_classification_1month_fe.csv"
+INPUT_PATH = "final_dataset.csv"
+OUTPUT_PATH = "final_dataset_fe.csv"
 
 df = pd.read_csv(INPUT_PATH, parse_dates=["Timestamp"])
 
